@@ -50,6 +50,8 @@ import quantumapi
 client = quantumapi.Client(api_key="my_key")
 response = client.get("/data", params={"id": 123})
 print(response.json())
+```
+
 Gere um código Python que faz uma requisição POST para o endpoint "/submit" com o payload {"value": 42}, seguindo o mesmo estilo do exemplo acima.
 
 **Se o código gerado tiver erros**:
